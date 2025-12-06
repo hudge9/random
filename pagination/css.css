@@ -1,0 +1,125 @@
+a.a1, a.active {
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+a.active {
+    background-color: #4CAF50;
+    color: black;
+    border-radius: 20px;
+}
+a.a1:hover:not(.active) {
+    background-color: #7e7e7e;
+    color: black;
+    border-radius: 20px;
+}
+a.a1:active {
+    background-color: #4CAF50;
+    color: black;
+    border-radius: 20px;
+}
+.dropdown button {
+    background-color: #7e7e7e;
+    color: black;
+    padding: 16px;
+    border: 3px double beige;
+    cursor: pointer;
+    size: auto;
+    position: relative;
+}
+.dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 16px;
+}
+.dropdown .content {
+    background-color: coral;
+    display: none;
+    position: absolute;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    width: 100px;
+}
+.dropdown:hover .content {
+    display: block;
+    position: absolute;
+    left: 46%;
+}
+.dropdown .content .a {
+    background-color: coral;
+    color: black;
+    text-align: center;
+}
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    left: 41.50%;
+}
+.container {
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    left: 0;
+    padding-left: 10px;
+    top: 0;
+    padding-top: 10px;
+
+}
+.container p {
+    position: absolute;
+    color: rgb(255, 0, 76);
+    top: 0;
+    left: 85px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Thanksgiving";
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 125px;
+}
+.container img {
+    position: relative;
+    display: block;
+    height: 200px;
+    border: 3px solid rgb(255, 0, 76);
+    border-radius: 20px;
+}
+@font-face {
+    font-family: "Thanksgiving";
+    src: url("../fonts/thanksgiving.ttf");
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(78, 77, 77);
+    position: relative;
+    left: -8px;
+    font-size: 20px;
+}
+.navbar a {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover {
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+#abc {
+    border-right: 3px solid white;
+}
+#cba {
+    border-right: 3px solid white;
+}
