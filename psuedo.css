@@ -1,0 +1,103 @@
+#p1:hover {
+    font-size: large;
+    background-color: red;
+    color: white;
+}
+#p2:hover {
+    font-size: large;
+    background-color: orange;
+    color: white;
+}
+#p3:hover {
+    font-size: large;
+    background-color: yellow;
+    color: white;
+}
+#p4:hover {
+    font-size: large;
+    background-color: green;
+    color: white;
+}
+#p5:hover {
+    font-size: large;
+    background-color: blue;
+    color: white;
+}
+#p6:hover {
+    font-size: large;
+    background-color: indigo;
+    color: white;
+}
+#p7:hover {
+    font-size: large;
+    background-color: violet;
+    color: white;
+}
+#p8:hover {
+    font-size: large;
+    background-color: pink;
+    color: white;
+}
+#p9:hover {
+    font-size: large;
+    background-color: brown;
+    color: white;
+}
+#p10:hover {
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+#p1:active {
+    font-size: larger;
+    background-color: darkred;
+    color: white;
+}
+#p2:active {
+    font-size: larger;
+    background-color: darkorange;
+    color: white;
+}
+#p3:active {
+    font-size: larger;
+    background-color: rgb(161, 161, 0);
+    color: white;
+}
+#p4:active {
+    font-size: larger;
+    background-color: darkgreen;
+    color: white;
+}
+#p5:active {
+    font-size: larger;
+    background-color: darkblue;
+    color: white;
+}
+#p6:active {
+    font-size: larger;
+    background-color: rgb(55, 0, 95);
+    color: white;
+}
+#p7:active {
+    font-size: larger;
+    background-color: darkviolet;
+    color: white;
+}
+#p8:active {
+    font-size: larger;
+    background-color: rgb(165, 0, 27);
+    color: white;
+}
+#p9:active {
+    font-size: larger;
+    background-color: rgb(82, 11, 11);
+    color: white;
+}
+#p10:active {
+    font-size: larger;
+    background-color: black;
+    color: white;
+}
+body {
+    background-color: black;
+}

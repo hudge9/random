@@ -1,0 +1,29 @@
+#sched {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+#spam {
+    float: right;
+}
+#b3 {
+    text-align: center;
+    background-color: black;
+}
+h1 {
+    color: white;
+}
+p {
+    color: white;
+    text-align: center;
+}
+body {
+    border: 5px solid white;
+    overflow: clip;
+}
+button {
+    width: 1000px;
+    height: 25px;
+    background-color: black;
+    border-width: 0px;
+}

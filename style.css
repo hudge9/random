@@ -1,0 +1,59 @@
+#p1 {
+    color: mediumorchid;
+}
+#p2 {
+    color: rgb(153, 107, 103);
+}
+#p3 {
+    color: #5e0d42;
+}
+#p4 {
+    color: hsl(34, 71%, 48%);
+}
+header {
+    color: oklab(88.70700000000001% -0.10538 0.03206);
+}
+.odd {
+    font-size: large;
+}
+.even {
+    font-size: small;
+}
+#red {
+    color: red;
+}
+#orange {
+    color: orange;
+}
+#yellow {
+    color: yellow;
+}
+#green {
+    color: green;
+}
+#blue {
+    color: blue;
+}
+#indigo {
+    color: indigo;
+}
+#violet {
+    color: violet;
+}
+ body {
+    background-color: black;
+}
+h1 {
+    color: white;
+}
+button {
+    background-color: black;
+    border: none;
+    width: 100%;
+    align-items: center;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: purple;
+    border: 3px solid white;
+}

@@ -1,0 +1,56 @@
+@font-face {
+    src: url('fonts/cowboys.ttf');
+    font-family: cowboys;
+}
+@font-face {
+    src: url('fonts/glitch.otf');
+    font-family: glitch;
+}
+@font-face {
+    src: url('fonts/flame.ttf');
+    font-family: flame;
+}
+@font-face {
+    src: url('fonts/thanksgiving.ttf');
+    font-family: thanksgiving;
+}
+@font-face {
+    src: url('fonts/idk.ttf');
+    font-family: idk;
+}
+@font-face {
+    src: url('fonts/sterion.ttf');
+    font-family: sterion;
+}
+@font-face {
+    src: url('fonts/wingdings.ttf');
+    font-family: wingdings;
+}
+body {
+    background-image: url('images/no.jpg');
+}
+h1 {
+    font-family: papyrus;
+    font-size: 45px;
+}
+#p1 {
+    font-family: wingdings;
+}
+#p2 {
+    font-family: sterion;
+}
+#p3 {
+    font-family: idk;
+}
+#p4 {
+    font-family: thanksgiving;
+}
+#p5 {
+    font-family: flame;
+}
+#p6 {
+    font-family: glitch;
+}
+#p7 {
+    font-family: cowboys;
+}
