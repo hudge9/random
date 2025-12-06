@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    size: auto;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: -5px -5px 5px hotpink, 5px 5px 5px deepskyblue;
+    color: white;
+}
+hr {
+    color: white;
+}
+#shrek1 {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    border-radius: 25000000px;
+    left: 39%;
+    animation: slideup 3s ease-in-out, colorchange 7s linear infinite, rotate 6s linear infinite, glow 2s ease-in-out infinite;
+}
+@keyframes slideleft {
+    from {
+        transform: translateX(250vw)
+    }
+}
+@keyframes slideright {
+    from {
+        transform: translateX(250vw)
+    }
+}
+@keyframes slideup {
+    from {
+        transform: translateY(125vh)
+    }
+}
+@keyframes slidedown {
+    from {
+        transform: translateY(125vh)
+    }
+}
+@keyframes rotate {
+    16.6666666667% {
+        transform: rotateX(180deg)
+    }
+
+    33.3333333333% {
+        transform: rotateY(180deg)
+    }
+    50% {
+        transform: rotateZ(180deg)
+    }
+}
+@keyframes grow {
+    50% {
+        transform: scale(2, 2);
+    }
+}
+@keyframes shrink {
+    50% {
+        transform: scale(0, 0);
+    }
+}
+@keyframes fade {
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes colorchange {
+    0% {
+        background-color: red;
+    }
+    7.14285714286% {
+        background-color: red;
+    }
+    14.2857142857% {
+        background-color: orange;
+    }
+    21.4285714286% {
+        background-color: yellow;
+    }
+    28.5714285714% {
+        background-color: green;
+    }
+    35.7142857143% {
+        background-color: blue;
+    }
+    42.8571428571% {
+        background-color: indigo;
+    }
+    50% {
+        background-color: violet;
+    }
+    57.1428571429% {
+        background-color: indigo;
+    }
+    64.2857142857% {
+        background-color: blue;
+    }
+    71.4285714286% {
+        background-color: green;
+    }
+    78.5714285714% {
+        background-color: yellow;
+    }
+    85.7142857143% {
+        background-color: orange;
+    }
+    100% {
+        background-color: red;
+    }
+}
+@keyframes glow {
+    100% {
+        box-shadow: 0px 0px 100px white;
+    }
+}
